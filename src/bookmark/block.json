@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "favorite-bookmarks-block/bookmark",
+	"version": "0.1.0",
+	"title": "Bookmark",
+	"category": "widgets",
+	"icon": "media-interactive",
+	"description": "Bookmark button for page / post",
+	"example": {},
+	"supports": {
+		"interactivity": true
+	},
+	"textdomain": "favorite-bookmarks-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScriptModule": "file:./view.js"
+}
